@@ -22,7 +22,7 @@ public class FavoritFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_favorit, container, false);
 
-        schoolBadgeAdapter = new SchoolBadgeAdapter(this);
+        /*schoolBadgeAdapter = new SchoolBadgeAdapter(this);
 
         SchoolModel[] schoolModels = new SchoolModel[] {
                 new SchoolModel(this, "Gentofte Skole", 12),
@@ -33,7 +33,7 @@ public class FavoritFragment extends Fragment {
         for (SchoolModel schoolModel : schoolModels) { schoolBadgeAdapter.addSchool(schoolModel); }
 
         ListView schoolModelListView = view.findViewById(R.id.listView);
-        schoolModelListView.setAdapter(schoolBadgeAdapter);
+        schoolModelListView.setAdapter(schoolBadgeAdapter);*/
 
         return view;
     }

@@ -36,6 +36,9 @@
         android:layout_gravity="start"
         android:background="@color/colorWhite"
         android:id="@+id/nav_view"
+        app:itemIconTint="@drawable/drawer_item_color"
+        app:itemTextColor="@drawable/drawer_item_color"
+        app:theme="@style/AppTheme.NavigationDrawer"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu"/>
 
